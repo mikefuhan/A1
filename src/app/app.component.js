@@ -8,6 +8,6 @@ const {width, height, scale} = Dimensions.get("window"),
 export default StyleSheet.create({
     "h1": {
         "color": "#c3591d",
-        "fontSize": "250%"
+        "fontSize": "150%"
     }
 });
