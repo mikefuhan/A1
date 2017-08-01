@@ -7,6 +7,7 @@ const {width, height, scale} = Dimensions.get("window"),
 
 export default StyleSheet.create({
     "body": {
-        "fontFamily": "Arial, Helvetica, sans-serif"
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "textAlign": "center"
     }
 });

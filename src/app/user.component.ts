@@ -4,16 +4,19 @@ import { Component } from '@angular/core';
   selector: 'app-user',
   template: `
     <div>
-      <p>Start typing something in the text box</p>
-      <input type="text" (input)="onUserInput($event)" [value]="name">
-      <p>This is {{name}} from User Component</p>
+      <h3>This is UserComponent</h3>
+      <p>Start typing
+      <input type="text" (input)="onUserInput($event)" [value]="name"></p>
+      <p>textbox content is {{name}}</p>
+      <hr>
+      <app-user-detail></app-user-detail>
       <hr>
     </div>
   `,
 
 })
 export class UserComponent {
-  name = 'nobody';
+  name = 'original text';
 
   onUserInput(event) {
     this.name = event.target.value;
