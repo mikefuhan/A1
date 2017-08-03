@@ -11,7 +11,7 @@ import { random } from 'lodash';
 export class AppComponent {
   title = 'another quite reactive webapp';
   rootProp = 'Initial value';  //this will pass into the app-dash (dashboardcomponent)
-  rootItems = ['initial value from app component','apples','bananas','cherries'];
+  rootItems = ['apples','bananas','cherries'];
   number = 0;
 
   onPropChanged(newProp){
